@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="www.greytah.com.menuitemsexample.MainActivity">
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <!-- You can put icons, and actions and the order of the items -->
+    <item
+        android:id="@+id/itemExit"
+        android:title="@string/item_exit_title"
+        />
+
+</menu>
